@@ -1,5 +1,7 @@
+![Demo](images/outputvideo_10.gif)
 <?xml version="1.0" encoding="UTF-8"?><html xmlns="http://www.w3.org/1999/xhtml">
   <body class="c14">
+    (program video output)
     <h1 class="c26" id="h.qze4dlw21i4d">
       <span class="c16">Vehicle Detection and track</span>
     </h1>
@@ -10,7 +12,7 @@
       <span class="c0">In this project I will be using computer vision and deep learning techniques to detect and track vehicles on the road.</span>
     </p>
     <p class="c5">
-      <span class="c0">Computer vision would is very useful for control and manual tuning of objects in an image. With the help of deep learning we can get a robust approach to improve the accuracy of our computer vision algorithm.    </span>
+      <span class="c0">Computer vision is used for control and manual tuning of objects in the video frames. With the help of Linear SVM classifier we can get a robust approach to improve the accuracy of our computer vision algorithm.    </span>
     </p>
     <p class="c5 c8">
       <span class="c0"/>
