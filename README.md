@@ -226,7 +226,10 @@
       </span>
     </p>
     <p class="c12">
-      <span class="c0">To smooth overlapping and filter false positives of the image I use a detection overlap threshold. </span>
+      <span class="c0">To smooth overlapping and filter false positives of the image I use a detection overlap threshold. Overlap treshold was manualy selected to two. </span>
+    </p>
+    <p class="c5 c18">
+      <span class="c22">heatmap = apply_threshold(heatmap, 2)</span>
     </p>
       <span>Implementation of the pipeline can be found under function pipeline and find_car functions in </span>
       <span class="c2">
@@ -247,14 +250,8 @@
         <img alt="" src="images/image5.png" style="width: 603.14px; height: 939.50px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""/>
       </span>
     </h3>
-    <p class="c5">
-      <span class="c0">There were some problems with detecting false positives, but they were overcome by using the right window scale and threshold. After collecting the heatmap I apply a threshold to establish the magnitude of boxes that must be exceeded for the condition be manifested in the output. </span>
-    </p>
     <p class="c5 c8">
       <span class="c0"/>
-    </p>
-    <p class="c5 c18">
-      <span class="c22">heatmap = apply_threshold(heatmap, 2)</span>
     </p>
     <h2 class="c24" id="h.9z9142o9x1l1">
       <span>Future Implementations</span>
@@ -264,10 +261,10 @@
         <span class="c0"> Non-max suppression allows us to remove weaker matches to produce uniquedetections. </span>
       </li>
       <li class="c5 c13">
-        <span class="c0">Another technique to explore would be to use a vehicle tracking method that can follow a vehicle that has been previously detected. </span>
+        <span class="c0"> CNN techniques for detection </span>
       </li>
       <li class="c5 c13">
-        <span class="c0">If possible a decision tree to identify non-relevant data</span>
+        <span class="c0">Temporal sequence neural net, to keep track of previews results like RNN </span>
       </li>
     </ul>
   </body>
