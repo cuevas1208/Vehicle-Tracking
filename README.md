@@ -226,25 +226,8 @@
       </span>
     </p>
     <p class="c12">
-      <span class="c0">To smooth overlapping and filter false positives of the image I use non-max suppression. non-max suppression removes weaker matches to produce unique detections based in labels match. </span>
+      <span class="c0">To smooth overlapping and filter false positives of the image I use a detection overlap threshold. </span>
     </p>
-    <p class="c5 c8">
-      <span class="c0"/>
-    </p>
-    <p class="c5">
-      <span>            </span>
-      <span class="c21">labels = label(heatmap) </span>
-    </p>
-    <p class="c5 c8">
-      <span class="c0"/>
-    </p>
-    <p class="c5">
-      <span class="c0">In my pipeline I overlap multiple heat detections over the video frame, and threshold as convenient.  </span>
-    </p>
-    <p class="c5 c8">
-      <span class="c0"/>
-    </p>
-    <p class="c5">
       <span>Implementation of the pipeline can be found under function pipeline and find_car functions in </span>
       <span class="c2">
         <a class="c4" href="https://www.google.com/url?q=https://ec2-52-53-212-62.us-west-1.compute.amazonaws.com:8888/notebooks/notebook/CarND-Vehicle-Detection/source_code/Vehicle_Detection.ipynb&amp;sa=D&amp;ust=1502661329614000&amp;usg=AFQjCNGPAPvp3AcBGZtwD182vEz111V4fQ">Vehicle_Detection.ipynb</a>
@@ -255,7 +238,7 @@
       <span class="c0"/>
     </p>
     <p class="c20">
-      <span class="c0">To filter the location of the car from false positives Heat-maps takes into account the overlapping bounding boxes showing the car location in the most red part of the heatmap. </span>
+      <span class="c0"> Below is a visualization of detection heat-map </span>
     </p>
     <h3 class="c29" id="h.jq81i2g4wqwy">
       <span class="c30">Here the resulting bounding boxes are drawn onto the last frame in the </span>
@@ -278,7 +261,7 @@
     </h2>
     <ul class="c19 lst-kix_5r8avx40xan8-0 start">
       <li class="c5 c13">
-        <span class="c0">To make it more robust I would explore other more complex methods of color and gradient threshold or even perspective transform to isolate the vehicles from the rest of the image. </span>
+        <span class="c0"> Non-max suppression allows us to remove weaker matches to produce uniquedetections. </span>
       </li>
       <li class="c5 c13">
         <span class="c0">Another technique to explore would be to use a vehicle tracking method that can follow a vehicle that has been previously detected. </span>
