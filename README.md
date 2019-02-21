@@ -233,7 +233,7 @@
       <span class="c0"/>
     </p>
     <p class="c5">
-      <span>I end up using color_space = 'YCrCb', tree channels from HOG, with 8 cells per block. I did not saw a need for using Spatial features but I did used the Histogram features. My classifier has a kernel ‘rbf’ and gramma ’auto’. With these parameters I did not saw any issues recognizing vehicles. Implementation of the pipeline can be found under function pipeline in </span>
+      <span>The input data with best results came from a concatenation of HOG features from 'YCrCb' color space (8 cells per block). My classifier has a kernel ‘rbf’ and gramma ’auto’. Implementation of the pipeline can be found under function pipeline in </span>
       <span class="c2">
         <a class="c4" href="https://www.google.com/url?q=https://ec2-52-53-212-62.us-west-1.compute.amazonaws.com:8888/notebooks/notebook/CarND-Vehicle-Detection/source_code/Vehicle_Detection.ipynb&amp;sa=D&amp;ust=1502661329611000&amp;usg=AFQjCNEq0BknDzwmo7jKG4fF25zYbS9BDA">Vehicle_Detection.ipynb</a>
       </span>
