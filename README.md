@@ -182,8 +182,7 @@
       <span class="c6">Sliding window implementation search</span>
     </h2>
     <p class="c5">
-      <span>When it comes to sliding a window across the video frame the car size will be different. In order to adapt to this circumstance, </span>
-      <span class="c0">I used the scale method, instead of changing the window size. The scale method resizes the original image to fit a window. This technique was borrowed from Udacity's Self-driving class. </span>
+      <span>To addess the variance of car size across the video frame, instead of changing the window size, I resize the origial image to multiple size. This image scale method resizes the original image to fit a window. This technique was borrowed from Udacity's Self-driving class. </span>
     </p>
     <p class="c5 c8">
       <span class="c0"/>
@@ -194,27 +193,6 @@
         <a class="c4" href="https://www.google.com/url?q=https://ec2-52-53-212-62.us-west-1.compute.amazonaws.com:8888/notebooks/notebook/CarND-Vehicle-Detection/source_code/Vehicle_Detection.ipynb&amp;sa=D&amp;ust=1502661329608000&amp;usg=AFQjCNF7yUn9mq3AFwFGyQJUJyyB2NadMw">Vehicle_Detection.ipynb</a>
       </span>
       <span class="c0">)          </span>
-    </p>
-    <p class="c5">
-      <span class="c0">        #slide in the horizontal axis  </span>
-    </p>
-    <p class="c5">
-      <span class="c0">        for xb in range(nxsteps):</span>
-    </p>
-    <p class="c5 c17">
-      <span class="c0">#slide in the vertical axis  </span>
-    </p>
-    <p class="c5">
-      <span class="c0">                    for yb in range(nysteps):</span>
-    </p>
-    <p class="c5">
-      <span class="c0">                        ypos = yb*cells_per_step</span>
-    </p>
-    <p class="c5">
-      <span class="c0">                        xpos = xb*cells_per_step</span>
-    </p>
-    <p class="c5 c8">
-      <span class="c0"/>
     </p>
     <h2 class="c24" id="h.6py0tggq0q0w">
       <span class="c6">Training a classifier</span>
