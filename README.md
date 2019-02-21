@@ -254,20 +254,8 @@
     <p class="c5 c8">
       <span class="c0"/>
     </p>
-    <h3 class="c28" id="h.le6emczgjat5">
-      <span class="c1">Heat-maps</span>
-    </h3>
     <p class="c20">
-      <span class="c0">To filter the location of the car from false positives I used heat-maps. Heat-maps takes into account the overlapping bounding boxes showing the car location in the most red part of the heatmap. </span>
-    </p>
-    <p class="c12">
-      <span class="c21">        # Add heat to each box in box list</span>
-    </p>
-    <p class="c12">
-      <span class="c21">        heatmap = add_heat(heatmap, box_list)</span>
-    </p>
-    <p class="c12">
-      <span class="c22">        heatmap = apply_threshold(heatmap, threshold)</span>
+      <span class="c0">To filter the location of the car from false positives Heat-maps takes into account the overlapping bounding boxes showing the car location in the most red part of the heatmap. </span>
     </p>
     <h3 class="c29" id="h.jq81i2g4wqwy">
       <span class="c30">Here the resulting bounding boxes are drawn onto the last frame in the </span>
