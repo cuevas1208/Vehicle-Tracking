@@ -11,9 +11,6 @@
     <p class="c5">
       <span class="c0">In this project I will detect and track vehicles on the road by using Histogram of Oriented Gradients(HOG) for features extraction and supervised machine learning algorithm for detection. </span>
     </p>
-    
-    <span class="c0"> SVM is a supervised machine learning algorithm which can be used for classification. It uses a technique called the kernel trick to transform your data and then based on these transformations it finds an optimal boundary between the possible outputs. Different from matching templates, SVM can generaize the detection of the car. </span>
-    
     <p class="c5 c8">
       <span class="c0"/>
     </p>
