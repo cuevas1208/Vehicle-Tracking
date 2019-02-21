@@ -9,11 +9,11 @@
       <span class="c6">Overview:</span>
     </h2>
     <p class="c5">
-      <span class="c0">In this project I will be using computer vision and deep learning techniques to detect and track vehicles on the road.</span>
+      <span class="c0">In this project I will detect and track vehicles on the road by using Histogram of Oriented Gradients(HOG) for features extraction and supervised machine learning algorithm for detection. </span>
     </p>
-    <p class="c5">
-      <span class="c0">Computer vision is used for control and manual tuning of objects in the video frames. With the help of Linear SVM classifier we can get a robust approach to improve the accuracy of our computer vision algorithm.    </span>
-    </p>
+    
+    <span class="c0"> SVM is a supervised machine learning algorithm which can be used for classification. It uses a technique called the kernel trick to transform your data and then based on these transformations it finds an optimal boundary between the possible outputs. Different from matching templates, SVM can generaize the detection of the car. </span>
+    
     <p class="c5 c8">
       <span class="c0"/>
     </p>
@@ -162,21 +162,6 @@
     <h2 class="c24" id="h.9hexc493s1yq">
       <span class="c6">Sliding Window Search</span>
     </h2>
-    <p class="c5">
-      <span class="c0">cv2.matchTemplate() - it compares two images to find out how close they are from each other </span>
-    </p>
-    <p class="c5">
-      <span class="c0">cv2.minMaxLoc() - extracts the location for the best match</span>
-    </p>
-    <p class="c5">
-      <span class="c0">cv2.resize() - You can use it to scale a color image</span>
-    </p>
-    <p class="c5 c8">
-      <span class="c0"/>
-    </p>
-    <p class="c5">
-      <span class="c0">This two functions will not work because the cv2.matchTemplate can only find very close matches, and changes in size or orientation of a car make it impossible to match with a template. </span>
-    </p>
     <h3 class="c10" id="h.clwjk33yg8a8">
       <span class="c1">Region of search:</span>
     </h3>
