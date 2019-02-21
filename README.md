@@ -226,7 +226,7 @@
       </span>
     </p>
     <p class="c12">
-      <span class="c0">To smooth overlapping and clean some of the false positives of the image I used scipy.ndimage.measurements.label. This function returns an integer ndarray with a unique array for for boxes that were overlapping. I heps estimate a bounding box for vehicles detected</span>
+      <span class="c0">To smooth overlapping and filter false positives of the image I use non-max suppression. non-max suppression removes weaker matches to produce unique detections based in labels match. </span>
     </p>
     <p class="c5 c8">
       <span class="c0"/>
