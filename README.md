@@ -264,7 +264,7 @@
         <span class="c0"> CNN techniques for detection </span>
       </li>
       <li class="c5 c13">
-        <span class="c0">Temporal sequence neural net, to keep track of previews results like RNN </span>
+        <span class="c0">Temporal sequence neural net to keep track of previews results like RNN </span>
       </li>
     </ul>
   </body>
